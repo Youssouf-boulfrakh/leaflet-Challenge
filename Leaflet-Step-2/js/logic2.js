@@ -98,7 +98,7 @@ function createMap(earthquakes, plates) {
     });
 
     // Add in our legend
-    let legend = L.control({position: 'bottomleft'});
+    let legend = L.control({position: 'bottomright'});
     legend.onAdd = function (myMap) {
         let div = L.DomUtil.create('div', 'info legend');
         labels = ['<strong>Magnitude</strong>'],
